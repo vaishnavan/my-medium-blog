@@ -9,14 +9,7 @@
         "eslint:recommended",
         "prettier"
     ],
-    "overrides": [
-        {
-            "files": [ "client/src/**/*.js" ],
-            "rules": {
-                "quotes": [ 2, "single" ]
-            }
-        }
-    ],
+    "overrides": [],
     "root": true,
     "parserOptions": {
         "ecmaVersion": "latest"
