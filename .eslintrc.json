@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "../src",
+        "eslint:recommended",
+        "prettier"
+    ],
+    "overrides": [
+        {
+            "files": [ "client/src/**/*.js" ],
+            "rules": {
+                "quotes": [ 2, "single" ]
+            }
+        }
+    ],
+    "root": true,
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "semi": ["error", "never"],
+        "quotes": ["error", "double"],
+        "indent": ["error", 4]
+    }
+}
